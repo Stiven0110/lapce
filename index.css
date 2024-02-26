@@ -1,0 +1,1339 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+:root {
+    --padding-container: 100px 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.hero{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.heroBackground {
+    width: 100%;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+    background-color:#7b001e;
+}
+
+/* Nav */
+
+.nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav img {
+    width: 60%;
+}
+
+.nav__link {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav__links {
+    color: #fff;
+    text-decoration: none;
+}
+.brochureBoton{
+    width: 40%;
+    color: white;
+    background-color: #7b001e;
+    border-radius: 1vh;
+    height: 6vh;
+}
+.brochureBoton strong{
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav__menu {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+.btnInformacion{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #CC9865 !important;
+    color: white !important;
+}
+/* Hero container */
+.container_Img {
+    padding: 20px;
+    max-width: 90vh;
+    
+}
+
+.containerBackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    max-height: 70vh;
+    background-image: url(./img/maestriadeneuropsicologiaclinica_Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+}
+.hero__container{
+    max-width: 1200px;
+    padding: 5px 0px;
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: flex-start;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: center;
+    justify-content: left;
+}
+
+.hero__title {
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    max-width: 581px;
+}
+.txt_negrita{
+    font-size: 47px;
+}
+
+.hero__paragraph {
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 530px;
+    font-size: 20px;
+}
+
+.container_Img .botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    
+}
+.programa{
+    background-color: #e7e7e7e7;
+}
+.contenido-cajas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.contenido-cajas .contenido-tarjeta{
+    max-width: 500px;
+    margin: 40px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.contenido-cajas .contenido-tarjeta h1{
+   font-size: 30px;
+   font-weight: bold;
+   color: #7b001e;
+}   
+.programa .tarjeta{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.programa .tarjeta iframe{
+    border-radius: 2vh;
+}
+
+.programa .titulo-tarjeta{
+    margin:10px 0;   
+}
+.contenido-tarjeta .lastTxt{
+    width: 50%;
+    font-size: 20px;
+}
+.detalles{
+    background-image: url(./img/maestríaenneuropsicologíaclínicaonline.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    align-items: center;
+    display: flex;
+}
+.detallesImg{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.detallesImg img{
+    width: 70%;
+}
+.containerImg{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    height: 75%;
+
+}
+.v-line{
+    border-left: thick solid #ffffff;
+    height:30%;
+
+}
+.detallesImg p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+
+.detallesImg strong{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+.titulo{
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+} 
+.registro{
+    background-image: url(./img/especializaciónenneuropsicología_Form.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.queTiene{
+    background-color: #e7e7e7e7;
+}
+.queTieneContain .titulo {
+    color: #7b001e;
+    margin: 20px;
+}
+.txtContain p h1 ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.txtContain h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.imgContain{
+    width: 55%;
+}
+
+.txtContain{
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+}
+.containGeneral img{
+    width: 95%;
+}
+.containGeneral{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.queVeras{
+    background-color: #e7e7e7e7;
+}
+.queVerasContain .titulo{
+    color: #7b001e;
+    margin: 20px;
+}
+.queVerasContain .containGeneral .txtContain {
+    width: 30%;
+}
+.queVerasContain .containGeneral .txtContain p {
+    text-align: left;
+}
+
+.queVeras .containerImg{
+    width: 70%;
+}
+.queVeras .detallesImg{
+    width: 30%;
+}
+.queVeras .detallesImg img{
+    width: 50%;
+}
+.queVeras .detallesImg p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7b001e;
+}
+.queVeras .v-line{
+    border-left: thick solid #cc9865;
+    height: 5vh;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 580px;
+    background: #e7e7e7e7;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.body h1{
+    color: #7b001e;
+}
+.body .botonesIngresoEgreso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    max-height: 71vh;
+}
+.egresoIngreso{
+    height: 540px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 430px;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.card .imgBox{
+    width: 30%;
+    position: relative;
+    top: -10%;
+}
+.card .imgBox1{
+    width: 30%;
+    position: relative;
+    top: -56%;
+}
+.card .img{
+    background-image: url(./img/maestrianeuropsicologia_ingreso.png);
+    height: 105px;
+    background-size: 350px;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    visibility:visible
+}
+.card .img1{
+    background-image: url(./img/maestrianeuropsicologia_egreso.png);
+    height: 105px;
+    background-size: 350px;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.btntxt{
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.card .txtcard{
+    font-weight: bold;
+    font-size: 25px;
+}
+.card .imgDetails{
+    width: 70%;
+    background-image: url(./img/coment.png);
+    background-size: cover;
+    height: 66%;
+    position: relative;
+    top: 6%;
+    z-index: 1;
+    visibility: visible;
+    
+}
+.card .imgDetails1{
+    width: 70%;
+    background-image: url(./img/coment2.png);
+    background-size: cover;
+    height: 381px;
+    position: relative;
+    top: -58%;
+    z-index: 0;
+    visibility: hidden;
+}
+.card .contenido{
+    width: 50%;
+    position: relative;
+    left: 50px;
+}
+.card .contenido1{
+    width: 100%;
+    margin: 5px 25px 0 30px;
+}
+.card .contenido1 ul{
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.card .contenido1 h1{
+    text-align: left;
+    margin: 0px 0px -10px;
+
+}
+.card .contenido1 p{
+    margin: 1px 0 0px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.txtcard {
+    margin: 30px 55px 0px;
+}
+.contenido p{
+    width: 65%;
+    margin: 0px 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.dirigida .titulo{
+    color: #7b001e;
+    margin: 20px;
+}
+.teInteresa{
+    background-image: url(./img/maestriadeneuropsicologia_Experto.png);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height: 350px;
+}
+
+.teInteresaContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.teInteresaContainer p{
+    color: white;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.imgContainer img{
+    width: 40%;
+    margin: 20px;
+}
+.imgContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    width: 60%;
+    height: 35px;
+}
+.admisionContainer{
+    margin: 50px;
+}
+.dirigidaBotones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 35vh;
+}
+.dirigidaBotones img{
+    width: 35%;
+}
+.owl-carousel.owl-drag .owl-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:#7B001E !important ;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.expertoBtn{
+    background-color: #CC9865;
+    height: 100%;
+    border-radius: 1vh;
+    width: 40%;
+    font-size: 16px;
+    color: #7B001E;
+    font-weight: bold;
+}
+
+.Oculto {
+    display: none;
+}
+
+/* Modal */
+.owl-carousel {
+    z-index: 0 !important;
+}
+.ingreso_btn{
+    background-image: url(./img/maestrianeuropsicologia_ingreso.png);
+    height: 10rem;
+    background-size: contain;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: transparent;
+}
+.ingreso_btn1{
+    background-image: url(./img/maestrianeuropsicologia_egreso.png);
+    height: 10rem;
+    background-size: contain;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: transparent;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+.modal1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+.modal1--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+
+.modal__container{
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+.modal__container1{
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+
+.modal__title{
+    font-size: 2.5rem;
+}
+
+.modal__paragraph{
+    margin-bottom: 10px;
+}
+
+
+.modal__close{
+    text-decoration: none;
+    color: #fff;
+    background-color: #7B001E;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+.modal__close1{
+    text-decoration: none;
+    color: #fff;
+    background-color: #7B001E;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+}
+.modal__close:hover{
+    color: #7b001e;
+    background-color: #fff;
+}
+.modal__close1:hover{
+    color: #7b001e;
+    background-color: #fff;
+}
+.btnInscribirme {
+    width: 40%;
+    color: white;
+    background-color: #7b001e;
+}
+.txtOculto{
+    display: none;
+}
+
+/* -footer- */
+.footer .container{
+	max-width: 1170px;
+	margin:auto;
+}
+.footer .row{
+	display: flex;
+	flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.footer .ul{
+	list-style: none;
+}
+.footer{
+	background-color: #000000;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 33.3%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer .virtualFooter{
+    color: white;
+}
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #ffffff;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a .virtualFooter:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #000000;
+	background-color: #ffffff;
+}
+.legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #7B001E;
+    
+    flex-direction: row-reverse;
+  }
+  .footer img{
+    width: 85%;
+  }
+
+  .VtabletV{
+    display: none !important;
+  }
+/* Media queries */
+
+
+@media (max-width:500px){
+    .footer {
+        padding: 36px 0px 35px 25px;
+    }
+    .footer img {
+        width: 50%;
+    }
+    .footer-col{
+        width: 100%;
+    }
+.nav__logo{
+    display: flex;
+    justify-content: center;
+}
+.nav img {
+    width: 80%;
+}
+.nav__link{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    font-size: 10px;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #CC9865;
+}
+.hero__title {
+    font-size: 20px;
+    width: 85%;
+}
+.txt_negrita {
+    font-size: 25px;
+}
+.hero__container {
+    padding: 10px 0px;
+}
+.hero__paragraph {
+    font-size: 12px;
+}
+.containerBackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    max-height: 60vh;
+    background-image: url(./img/maestriadeneuropsicologiaclinica_Banner_mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.botonOculto {
+    display: none;
+}
+.brochureBoton{
+    width: 100%;
+    color: white;
+    background-color: #CC9865;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: 5vh;
+}
+.tarjeta .txt-tittle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #7b001e;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .programa .tarjeta iframe {
+    width: 100%;
+    height: 35vh;
+/* ---------------------------------------------------------- */
+    }
+    .contenido-cajas {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .contenido-cajas .contenido-tarjeta {
+        font-size: 12px;
+        margin: 15px 0px;
+    }
+    .contenido-tarjeta .lastTxt {
+        font-size: 14px;
+        width: 100%;
+        color: #CC9865;
+    }
+    .OcultoVGrande{
+        display: none !important;
+    }
+    .detallesOculta{
+        background-image:url(img/maestríaenneuropsicologíaclínicaonline_Mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .detallesImg {
+        width: 25%;
+    }
+    .detallesOculta h1{
+        font-size: 20px;
+    }
+    .queTieneContain .titulo {
+        font-size: 22px;
+        margin: 0px;
+    }
+    .containGeneral {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .txtContain {
+        margin: 20px 0px 0px;
+        width: 100% !important;
+        font-size: 12px;
+    }
+    .txtContain h1 {
+        font-size: 12px;
+    }
+    .imgContain {
+        width: 100%;
+    }
+    .containGeneral img {
+        width: 100%;
+    }
+    .queVerasContain .titulo {
+        font-size: 22px;
+        margin: 0px;
+    }
+    .item p{
+        font-size: 20px;
+        font-weight: bold;
+        color: #7B001E;
+        text-align: center;
+    }
+    .item img {
+        width: 55% !important;
+    }
+    .queVerasContain .containGeneral .txtContain p {
+        text-align: justify;
+        margin: 0px 0px 30px;
+    }
+    .Oculto {
+        display: block !important;
+    }
+    .egresoIngreso .titulo{
+        font-size: 20px;
+        padding: 0;
+    }
+    .body {
+        min-height: 450px;
+    }
+    .body .egresoIngreso {
+        height: 400px;
+    }
+    .body .container_btn{
+        display: flex !important;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 310px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .modal1 .modal__container1{
+        max-height: 100%;
+    }
+    .modal .titulo{
+        color: #7B001E;
+    }
+    .modal1 .titulo{
+        color: #7B001E;
+    }
+    .modal1 p{
+    margin: 0px 0px 0px -65px;
+    font-family: 'Montserrat', sans-serif;
+    }
+    .modal p{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .modal1 ul{
+       font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .teInteresa {
+        background-image: url(./img/maestriadeneuropsicologia_Experto_mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+    }
+    .teInteresaContainer {
+        margin: 0px;
+    }
+    .teInteresaContainer .titulo{
+        font-size: 20px;
+    }
+    .teInteresaContainer p {
+        font-size: 12px;
+        width: 80%;
+        text-align: center;
+    }
+    .expertoBtn {
+        width: 100%;
+    }
+    .imgContainer {
+        width: 100%;
+    }
+    .admisionContainer {
+        margin: 0px !important;
+
+    }
+    .ingreso_btn{
+        width: 80%;
+    }
+    .ingreso_btn1 {
+        width: 80%;
+    }
+    
+    .btnInscribirme {
+        width: 100%;
+        border-radius: 1vh;
+        background-color: #7b001e !important;
+    }
+    .txtOculto{
+        display: block;
+    }
+    .txtOcultoVGrande{
+        display: none !important;
+    }
+}
+@media (min-width:501px) and (max-width:750px){
+    .body {
+        min-height: 665px !important;
+    }
+    .btntxt {
+        width: 93% !important;
+        margin: 1px 1px 18px !important
+    }
+    .card .img {
+        background-size: 285px !important;
+    }
+    .card .contenido {
+        left: -50px !important;
+        top: -35px !important;
+        width: 65% !important;
+    }
+    .card .img1 {
+        background-size: 280px !important;
+    }
+    .card .contenido1 ul{
+        font-size: 12px !important;
+    }
+    .card .contenido1 p{
+        font-size: 12px !important;
+    }
+}
+@media (min-width:1000px) and (max-width:1200px){
+    .imgBox .img{
+        background-size: 290px;
+        height: 92px;
+    }
+    .card .img1{
+        height: 91px !important;
+        background-size: 291px !important;
+        
+    }
+    .btntxt {
+        width: 102%;
+        font-size: 25px;
+        font-weight: bold;
+        margin: -17px;
+    }
+    .card .contenido {
+        width: 63%;
+        position: relative;
+        left: -22px;
+        top: -24px;
+    }
+    .card .imgDetails1 {
+        height: 390px;
+    }
+}
+
+@media (min-width:501px) and (max-width:1000px){
+    .owl-carousel.owl-drag .owl-item {
+        display: inline;
+    }
+    .btntxt {
+        width: 80%;
+    }
+    .expertoBtn {
+        width: 100%;
+    }
+    .footer-col{
+        width: 33%;
+        margin-bottom: 30px;
+    }
+    .nav__logo{
+        display: flex;
+        justify-content: center;
+    }
+    .nav img {
+        width: 80%;
+    }
+    .nav__link{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .btn {
+        font-weight: bold;
+        font-size: 12px;
+        width: 90%;
+        height: 5vh;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #CC9865;
+    }
+    .hero__title {
+        font-size: 25px;
+        width: 70%;
+    }
+    .txt_negrita {
+        font-size: 30px;
+    }
+    .hero__container {
+        padding: 10px 0px;
+    }
+    .hero__paragraph {
+        font-size: 16px;
+    }
+    .containerBackground {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        max-height: 60vh;
+        background-image: url(./img/maestriadeneuropsicologiaclinica_Banner_tablet.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .brochureBoton{
+        width: 45%;
+        color: white;
+        background-color: #CC9865;
+        font-size: 14px;
+        font-weight: bold;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        height: 5vh;
+    }
+    .botones .botonOculto {
+       background-color: white;
+    }
+    .tarjeta {
+        width: 100%;
+    }
+    .tarjeta .txt-tittle{
+        font-size: 22px;
+        font-weight: bold;
+        color: #7b001e;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .programa .tarjeta iframe {
+        width: 100%;
+        height: 35vh;
+    }    
+    .txtOculto{
+        display: block;
+    }
+    .txtOcultoVGrande{
+        display: none !important;
+    }
+    .contenido-cajas .contenido-tarjeta {
+        max-width: 100% !important;
+        font-size: 16px;
+    }
+    .detallesImg {
+        width: 14%;
+    }
+    .detallesImg img {
+        width: 90%;
+    }
+    .contenido-tarjeta .lastTxt {
+        color: #CC9865;
+    }
+    .containGeneral {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .imgContain {
+        width: 100%;
+
+    }
+    .containGeneral img {
+        width: 100%;
+    }
+    .txtContain {
+        width: 100%;
+        margin: 20px;
+    }
+    .txtContain ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+    }
+   .Vtablet{
+        display: none !important;
+   }
+   .VtabletV{
+        display: block !important;
+   }
+   .containGeneralTablet{
+    width: 55% !important;
+   }
+   .txtContainTablet {
+    width: 100% !important;
+    font-family: 'Montserrat', sans-serif;
+   }
+   .queVerasTablet{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+   }
+   .item{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #7B001E;
+   }
+
+   .teInteresa{
+    background-image: url(./img/maestriadeneuropsicologia_ExpertoBanner_contacto_tablet.png);
+   }
+   .teInteresaContainer {
+    width: 86% !important;
+   }
+   .teInteresaContainer .titulo{
+    font-size: 22px;
+    width: 50%;
+   }
+   .teInteresaContainer p{
+    font-size: 14px;
+    width: 40%;
+   }
+   .imgContainer {
+    width: 40% !important;
+   }
+   .container_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+   .ingreso_btn{
+    height: 11rem;
+    width: 95%;
+   }
+   .ingreso_btn1{
+    height: 11rem;
+    width: 95%;
+   }
+   .body .botonesIngresoEgreso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    max-height: 70vh;
+}
+.body{
+    min-height: 670px;
+}
+.body .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card .imgBox {
+    width: 48%;
+    display: flex;
+    top: 0px;
+}
+.card .imgBox1 {
+    width: 47%;
+    display: flex;
+    top: 0px;
+}
+.card .img {
+    background-size: 360px;
+    width: 100%;
+    height: 115px;
+
+}
+.card .img1 {
+    background-size: 360px;
+    width: 100%;
+
+}
+
+   .card .imgDetails {
+    width: 100%;
+    background-image: url(./img/coment_tablet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card .imgDetails1 {
+    width: 100%;
+    background-image: url(./img/coment_tablet2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card .contenido1 {
+    margin: 5px 25px 0 10px;
+}
+.card .contenido1 h1 {
+    margin: -10px 0px -16px;
+}
+.card .contenido1 ul {
+    width: 97%;
+}
+.egresoIngreso {
+    height: 630px;
+}
+.card .contenido {
+    left: -13px;
+    top: -15px;
+}
+.programa .tarjeta {
+    margin: 1px 0px;
+}
+.admisionContainer  .videoFinal{
+    width: 80% !important;
+    height: 25vh !important;
+}
+.Padmision{
+    margin: 0px 0px 30px !important;
+    width: 90%;
+    text-align: justify;
+}
+.tabletTarjeta{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.tabletTarjeta button{
+    width: 60%;
+    background-color: #7B001E;
+}
+.owl-item{
+    width: 345px  !important;
+}
+.owl-carousel {
+
+    width: 45% !important;
+}
+.owl-stage-outer{
+    height: 20vh;
+}
+.owl-carousel .owl-item img {
+    width: 45% !important;
+}
+}
